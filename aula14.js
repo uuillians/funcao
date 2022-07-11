@@ -29,7 +29,7 @@ btnEnviar.addEventListener('click', function (e) {
     let idade  = cxIdade.value
     let peso   = cxPeso.value
     let altura = cxAltura.value
-    let imc    = (peso / (altura * altura)).toFixed(1)
+    let imc    = (peso / (altura * idade)).toFixed(1)
 
     console.log(nome)
     console.log(idade)
