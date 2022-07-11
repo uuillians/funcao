@@ -76,19 +76,19 @@ btnEnviar.addEventListener('click', function (e) {
 function situacaoDoPeso(imc) {
     let situacao = ''
     if (imc < 18.5) {
-        situacao = 'Baixo peso'	
+        situacao = ''	
     } else if (imc >= 18.5 && imc <= 24.9) {
-        situacao = 'Peso normal'
+        situacao = ''
     } else if (imc >= 25 && imc <= 29.9) {
-        situacao = 'Sobrepeso'
+        situacao = ''
     } else if (imc >= 30 && imc <= 34.9) {
-        situacao = 'Obesidade I'
+        situacao = ''
     } else if (imc >= 35 && imc <= 39.9) {
-        situacao = 'Obesidade II'
+        situacao = ''
     } else if (imc >= 40) {
-        situacao = 'Obesidade III'
+        situacao = ''
     } else {
-        situacao = 'Informe seu peso corretamente'
+        situacao = ' '
     }
     return situacao
 }
