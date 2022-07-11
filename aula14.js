@@ -64,9 +64,9 @@ btnEnviar.addEventListener('click', function (e) {
 
     console.log(pessoa)
     dados[1].textContent = pessoa.nome
-    dados[2].textContent = pessoa.idade + " anos"
-    dados[3].textContent = pessoa.peso + " Kg"
-    dados[4].textContent = pessoa.altura + " m"
+    dados[2].textContent = pessoa.idade + " Vezes que foi usada"
+    dados[3].textContent = pessoa.peso + " Valor da peça"
+    dados[4].textContent = pessoa.altura + " Meses de adquirida"
     dados[5].textContent = pessoa.imc + " " + pessoa.sit
 
     // previnir o comportamento padrao
