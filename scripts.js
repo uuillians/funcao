@@ -1,7 +1,3 @@
-/* Aula 14 de JS Manipular dados de Formulario */
-
-/* SELECIONE TODOS OS ELEMENTOS QUE
-DESEJA MANIPULAR */
 let formulario = document.querySelector('form')
 
 let cxNome   = document.querySelector('#nome')
